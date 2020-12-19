@@ -1,0 +1,21 @@
+{
+  "name": "Summarize",
+  "description": "Get a short summary of what you are reading.",
+  "version": "1.0",
+  "permissions": [
+    "activeTab",
+    "tabs",
+    "storage"
+  ],
+  "options_page": "options.html",
+  "browser_action": {
+    "default_icon": "icon.png",
+    "default_title": "Summarize!",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "persistent": false,
+    "page": "background.html"
+  },
+  "manifest_version": 2
+}
